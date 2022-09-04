@@ -78,7 +78,8 @@ p {
 }
 
 .button :hover {
-    color: #330000;
+    color: #000000;
+    background:#555 ;
 }
 
 .category {
@@ -96,7 +97,7 @@ p {
 }
 
 .container_cat {
-    max-width: 1080px;
+    max-width: 450px;
     margin: auto;
     padding-left: px;
     padding-right: 25px;
