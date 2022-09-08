@@ -1,6 +1,23 @@
 .cards{
     margin-top: -10px;
 }
+.nav-link{
+  display: inline-block;
+  margin-block: 2px;
+  position: relative;
+}
+.nav-link::after{
+  content: '';
+  width: 100%;
+  border-radius: 4px; 
+  position: absolute;
+  left: 0; bottom: 0;
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.nav-link :hover::after{
+  transform: scaleX(1);
+}
 /*section-title*/
 .section-title {
     text-align: center;
