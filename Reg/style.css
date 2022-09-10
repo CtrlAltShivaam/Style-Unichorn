@@ -8,17 +8,18 @@
 }
 
 body {
-    height: 100vh;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./bg.jpg);
+    background-image: url(./download.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .form {
-    width: 500px;
+    margin-top: 10px;
+    width: 520px;
     height: min-content;
     padding: 20px;
     border-radius: 12px;
@@ -40,7 +41,7 @@ body {
 .form h1 {
     font-size: 36px;
     margin-bottom: 25px;
-    font-weight: bold;
+    font-weight:lighter;
 }
 
 .form form {
