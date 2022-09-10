@@ -79,7 +79,7 @@ p:last-child {
 }
 
 .bg-main-color {
-  background-color: #ffde29;
+  background-color: #fff;
 }
 
 .bg-black-color {
@@ -1009,9 +1009,6 @@ Portfolio Area CSS
   color: #000000;
 }
 
-.shorting .mix {
-  display: none;
-}
 
 .single-portfolio-box {
   position: relative;
