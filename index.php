@@ -155,7 +155,7 @@
         <img src="img/men.webp" class="d-block w-100" alt="Camera"/>
       </div>
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+        <img src="img/unisex.webp" class="d-block w-100" alt="Exotic Fruits"/>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
