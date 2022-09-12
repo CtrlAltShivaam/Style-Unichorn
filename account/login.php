@@ -13,24 +13,23 @@ if(isset($_POST['login']))
 
    if(mysqli_num_rows($result) == 1)
    {
+        $row = mysqli_fetch_assoc($result);
+        if($row['usertype'] == 'admin')
+        {
+            $_SESSION['admin_name'] = $row['firstname'];
+            header('location:/Dashboard/admin_index.php');
+        }
+        elseif($row['usertype'] == 'user')
+        {
+            $_SESSION['user_name'] = $row['firstname'];
+            header('location:index.php');
 
-  $row = mysqli_fetch_assoc($result);
-  if($row['usertype'] == 'admin')
-  {
-    $_SESSION['admin_name'] = $row['firstname'];
-    header('location:admin_index.php');
-  }
-  elseif($row['usertype'] == 'user')
-  {
-    $_SESSION['user_name'] = $row['firstname'];
-    header('location:index.php');
-
-  }
-  else
-  {
-    $error[] = 'Incorrect Email or Password';
-  }
- }
+        }
+        else
+        {
+            $error[] = 'Incorrect Email or Password';
+        }
+    }
 };
 ?>
 <!DOCTYPE html>

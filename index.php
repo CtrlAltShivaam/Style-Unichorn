@@ -51,16 +51,16 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link" href="src/men.html">Men</a>
+            <a class="nav-link" href="src/men.php">Men</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/Women.html">Women</a>
+            <a class="nav-link" href="src/Women.php">Women</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/Kids.html">Kids</a>
+            <a class="nav-link" href="src/Kids.php">Kids</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="src/contactus.html">Contact us</a>
+            <a class="nav-link" href="src/contactus.php">Contact us</a>
           </li>
         </ul>
         <!-- Left links -->
@@ -69,7 +69,7 @@
 
       <!-- Right elements -->
       <div class="d-flex align-items-center">
-        <a class="btn btn-secondary m-3" href="login.html">
+        <a class="btn btn-secondary m-3" href="/account/login.php">
           Login
         </a>
         <!-- Notifications 
@@ -101,7 +101,7 @@
           </ul>
         </div> -->
         <!-- Icon -->
-        <a class="link-secondary me-3" href="src/cart.html">
+        <a class="link-secondary me-3" href="src/cart.php">
           <i class="fas fa-shopping-cart"></i>
         </a>
 
@@ -116,9 +116,9 @@
             aria-expanded="false"
           >
             <img
-              src="img/no-user"
+              src="img/no-user.png"
               class="rounded-circle"
-              height="25"
+              height="30"
               alt="Black and White Portrait of a Man"
               loading="lazy"
             />
@@ -128,13 +128,10 @@
             aria-labelledby="navbarDropdownMenuAvatar"
           >
             <li>
-              <a class="dropdown-item" href="#">Login to access your account</a>
+              <a class="dropdown-item" href="/account/login.php">Login to access your account</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#">or Signup</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Logout</a>
+              <a class="dropdown-item" href="/account/reg.php">or Signup</a>
             </li>
           </ul>
         </div>
@@ -206,7 +203,7 @@
   </div>
   </div>
   <div class="pro-container container">
-    <div class="pro" onclick="window.location.href='src/Product page.html';">
+    <div class="pro" onclick="window.location.href='src/Product page.php';">
       <img src="img/products/f1.jpg" alt="">
       <div class="des">
         <span>adidas</span>
@@ -222,7 +219,7 @@
       </div>
       <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
     </div>
-    <div class="pro" onclick="window.location.href='src/Product page.html';">
+    <div class="pro" onclick="window.location.href='src/Product page.php';">
       <img src="img/products/f6.jpg" alt="">
       <div class="des">
         <span>adidas</span>
@@ -238,7 +235,7 @@
       </div>
       <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
     </div>
-    <div class="pro" onclick="window.location.href='src/Product page2.html';">
+    <div class="pro" onclick="window.location.href='src/Product page2.php';">
       <img src="img/products/dress1.jpg" alt="">
       <div class="des">
         <span>adidas</span>
@@ -254,7 +251,7 @@
       </div>
       <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
     </div>
-    <div class="pro" onclick="window.location.href='src/Product page.html';">
+    <div class="pro" onclick="window.location.href='src/Product page.php';">
       <img src="img/products/dress2.jpg"alt="">
       <div class="des">
         <span>adidas</span>
@@ -577,7 +574,7 @@
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4"><a href="src/contactus.html"> Contact us</a></h6>
+          <h6 class="text-uppercase fw-bold mb-4"><a href="src/contactus.php"> Contact us</a></h6>
           <p><i class="fas fa-home me-3 text-secondary"></i> Barasat, Kolkata</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>

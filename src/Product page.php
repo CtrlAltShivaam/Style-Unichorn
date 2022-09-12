@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Scraper Nerds</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="../img/Logo - Black.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <meta name="robots" content="noindex,follow" />
+    <link rel="stylesheet" href="../css/mdb.min.css" />
+    <link rel="stylesheet" href="../css/Productpage.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <!-- Container wrapper -->
+      <div class="container nav">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+  
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-lg-0 " href="/index.php">
+            <img
+              src="../img/Logo - Black.png"
+              height="40"
+              alt="Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link" href="men.php">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Women.php">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Kids.php">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.php">Contact us</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+  
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <a class="btn btn-secondary m-3" href="../Login/login.php">
+            Login
+          </a>
+          <!-- Notifications 
+          <div class="dropdown">
+            <a
+              class="link-secondary me-3 dropdown-toggle hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div> -->
+          <!-- Icon -->
+          <a class="link-secondary me-3" href="../src/cart.php">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+  
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="../img/no-user.png"
+                class="rounded-circle"
+                height="30"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Login to access your account</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">or Signup</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="/img/products/f3.jpg" alt="">
+        <img data-image="blue" src="/img/products/f2.jpg" alt="">
+        <img data-image="red" class="active" src="/img/products/f1.jpg" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>adidas</span>
+          <h1>Product Name</h1>
+          <p>Product Description goes here: A product description is a form of marketing copy used to describe and explain the benefits of your product. In other words, it provides all the information and details of your product on your ecommerce site.
+          </p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Size</span>
+
+            <div class="cable-choose">
+              <button>S</button>
+              <button>M</button>
+              <button>L</button>
+              <button>XL</button>
+            </div>
+
+            <a href="#">How to check your size?</a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <h6 class="text-center"><del>₹499</del></h6>&nbsp<span >₹399</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!--Products-->
+    <br><br><hr>
+<section id="product1" class="section-p1">
+  <div class="section-title mt-5">
+  <h2>More Featured products</h2>
+  
+  </div>
+  <div class="pro-container container">
+    <div class="pro" onclick="window.location.href='src/Product page.php';">
+      <img src="../img/products/n1.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Product Name</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4> ₹639</h4>
+      </div>
+      <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
+    </div>
+    <div class="pro">
+      <img src="../img/products/n2.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Product Name</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4> ₹439</h4>
+      </div>
+      <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
+    </div>
+    <div class="pro">
+      <img src="../img/products/n3.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Product Name</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4> ₹399</h4>
+      </div>
+      <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
+    </div>
+    <div class="pro">
+      <img src="../img/products/n4.jpg" alt="">
+      <div class="des">
+        <span>adidas</span>
+        <h5>Product Name</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <h4> ₹299</h4>
+      </div>
+      <a href="#"><i class="fa-regular fa-heart addcart"></i></a>
+    </div>
+  </div>
+</div>
+</section>
+    <!-- Scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function() {
+
+      $('.color-choose input').on('click', function() {
+          var headphonesColor = $(this).attr('data-image');
+
+          $('.active').removeClass('active');
+          $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+          $(this).addClass('active');
+      });
+
+      });
+
+    </script>
+  </body>
+</html>
