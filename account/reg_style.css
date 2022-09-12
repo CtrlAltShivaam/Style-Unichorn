@@ -8,18 +8,17 @@
 }
 
 body {
-    height:100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./download.jpg);
+    background-image: url(./bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .form {
-    margin-top: 10px;
-    width: 520px;
+    width: 500px;
     height: min-content;
     padding: 20px;
     border-radius: 12px;
@@ -41,7 +40,7 @@ body {
 .form h1 {
     font-size: 36px;
     margin-bottom: 25px;
-    font-weight:lighter;
+    font-weight: bold;
 }
 
 .form form {
@@ -70,4 +69,13 @@ body {
     margin-left: 56px;
     margin-right: 58px;
     padding: 10px;
+}
+
+.form-container fromn .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: blue;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
 }
