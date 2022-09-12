@@ -81,32 +81,32 @@ if(!isset($_SESSION['admin_name']))
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
 <<<<<<< Updated upstream
-                        <a class="collapse-item" href="/Login/login.html">Login</a>
-                        <a class="collapse-item" href="/Reg/reg.html">Register</a>
-                        <a class="collapse-item" href="/Dashboard/Password/pass.html">Forgot Password</a>
+                        <a class="collapse-item" href="/Login/login.php">Login</a>
+                        <a class="collapse-item" href="/Reg/reg.php">Register</a>
+                        <a class="collapse-item" href="/Dashboard/Password/pass.php">Forgot Password</a>
 =======
-                        <a class="collapse-item" href="../Login/login.html">Login</a>
-                        <a class="collapse-item" href="../Reg/reg.html">Register</a>
-                        <a class="collapse-item" href="../Password/pass.html">Forgot Password</a>
+                        <a class="collapse-item" href="../Login/login.php">Login</a>
+                        <a class="collapse-item" href="../Reg/reg.php">Register</a>
+                        <a class="collapse-item" href="../Password/pass.php">Forgot Password</a>
 >>>>>>> Stashed changes
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        <a class="collapse-item" href="404.php">404 Page</a>
+                        <a class="collapse-item" href="blank.php">Blank Page</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="charts.php">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="tables.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span></a>
             </li>
